@@ -19,7 +19,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://localhost:8080/api/air-quality?city=${city}`
+        `https://aqi-backend.onrender.com/api/air-quality?city=${city}`
       );
 
       if (!response.ok) {
