@@ -108,67 +108,49 @@ aqi-search-engine/
 │
 └── README.md
 
-▶️ Run Project Locally
+```markdown
+# ▶️ Run Project Locally
 
-1️⃣ Start Backend (Spring Boot)
+## 1️⃣ Start Backend (Spring Boot)
 
-Copy code
-
-Bash
-
+```bash
 cd backend-aqi
-
 mvn clean
-
 mvn spring-boot:run
+```
 
-Backend will start at:
+**Backend will start at:** `http://localhost:8080`
 
-Copy code
+---
 
-http://localhost:8080
+## 2️⃣ Start Frontend (React)
 
-2️⃣ Start Frontend (React)
-
-Copy code
-
-Bash
-
+```bash
 cd frontend-aqi
-
 npm install
-
 npm run dev
+```
 
-Frontend will start at:
+**Frontend will start at:** `http://localhost:5173`
 
-Copy code
+---
 
-http://localhost:5173
+## 🔗 API Endpoint
 
-🔗 API Endpoint
+**HTTP GET** `/api/air-quality?city=CityName`
 
-Copy code
-
-Http
-
-GET /api/air-quality?city=CityName
-
-Example:
-
-Copy code
-
+**Example:**
+```
 http://localhost:8080/api/air-quality?city=Pune
+```
 
-📊 Features
+---
 
-Search AQI by city name
+## 📊 Features
 
-Dashboard-style UI
-
-Displays AQI value and pollutants
-
-Backend caching for faster responses
-
-Error handling for invalid cities
-
+- Search AQI by city name
+- Dashboard-style UI
+- Displays AQI value and pollutants
+- Backend caching for faster responses
+- Error handling for invalid cities
+```
