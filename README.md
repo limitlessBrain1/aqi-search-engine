@@ -136,13 +136,13 @@ http://localhost:8080/api/air-quality?city=Pune
 ## 📊 Application Screenshots
 
 ### Dashboard View
-![Dashboard](./Screenshot/dashboard.png)
+![Dashboard](./Screenshot/deatils.png)
 
 ### Search Results
-![Search Results](./Screenshot/search-results.png)
+![Search Results](./Screenshot/Screenshot 2026-01-01 190512.png)
 
 ### AQI Details
-![AQI Details](./Screenshot/aqi-details.png)
+![AQI Details](./Screenshot/Screenshot 2026-01-01 190539.png)
 
 ---
 
