@@ -1,0 +1,17 @@
+# Backend
+backend-aqi/target/
+backend-aqi/.classpath
+backend-aqi/.project
+backend-aqi/.settings/
+
+# Frontend
+frontend-aqi/node_modules/
+frontend-aqi/dist/
+
+# Environment
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
