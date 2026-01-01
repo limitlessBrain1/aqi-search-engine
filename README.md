@@ -156,12 +156,12 @@ http://localhost:8080/api/air-quality?city=Pune
 ```
 
 ### Dashboard View
-![Dashboard](Screenshot/Screenshot 2026-01-01 190512.png)
+![Dashboard](Screenshot/deatils.png)
 
 ### Search Results
-![Search Results]()
+![Search Results](Screenshot/Screenshot 2026-01-01 190512.png)
 
 ### AQI Details
-![AQI Details]()
+![AQI Details](Screenshot/Screenshot 2026-01-01 190539.png)
 
 
