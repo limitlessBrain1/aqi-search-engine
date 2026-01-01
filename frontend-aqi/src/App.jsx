@@ -19,8 +19,9 @@ function App() {
 
     try {
       const response = await fetch(
-        `https://aqi-backend.onrender.com/api/air-quality?city=${city}`
-      );
+       "https://aqi-search-engine-5ov4.onrender.com/api/air-quality?city=" + city
+       );
+
 
       if (!response.ok) {
         throw new Error("AQI not found");
