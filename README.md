@@ -154,3 +154,15 @@ http://localhost:8080/api/air-quality?city=Pune
 - Backend caching for faster responses
 - Error handling for invalid cities
 ```
+
+### Dashboard View
+![Dashboard](<img width="1364" height="697" alt="deatils" src="https://github.com/user-attachments/assets/9ca612d4-4307-4d88-ae0e-c09ad12390d5" />
+)
+
+### Search Results
+![Search Results](<img width="1366" height="686" alt="Screenshot 2026-01-01 190512" src="https://github.com/user-attachments/assets/51477960-908f-424a-bfd6-0a2c424aec9f" />
+)
+
+### AQI Details
+![AQI Details](<img width="1366" height="728" alt="Screenshot 2026-01-01 190539" src="https://github.com/user-attachments/assets/ca3ce11a-8827-47ae-b65e-35a9656eea2d" />
+)
