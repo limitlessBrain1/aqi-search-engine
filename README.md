@@ -49,35 +49,14 @@ This project is built as part of a coding assignment and follows proper **REST A
 ## 🌐 API Used
 
 **World Air Quality Index (WAQI) API**
-
 - Website: https://aqicn.org/api/
 - Endpoint used internally by backend
-
-  ## 🚀 Features
-
-### ✅ Backend (Spring Boot)
-- REST API to fetch AQI data by city
-- Integrates with **https://aqicn.org/api/**
-- In-memory caching using Spring Cache
-- Handles repeated queries efficiently
-- CORS enabled for frontend communication
-
-### ✅ Frontend (React)
-- City-based AQI search
-- Displays:
-  - City name
-  - AQI value
-  - Air quality status (Good / Moderate / Poor / Very Poor)
-- Error handling for unavailable cities
-- Responsive dashboard UI
-- Built using React + Vite
 
 ---
 
 ## ⚙️ Prerequisites
 
 Make sure the following are installed on your system:
-
 - **Java 17 (JDK 17)**
 - **Maven 3.9+**
 - **Node.js 18+**
@@ -87,8 +66,7 @@ Make sure the following are installed on your system:
 ---
 
 ## 📁 Project Structure
-
-text
+```
 aqi-search-engine/
 │
 ├── backend-aqi/
@@ -106,13 +84,19 @@ aqi-search-engine/
 │   ├── index.html
 │   └── package.json
 │
+├── Screenshot/
+│   ├── dashboard.png
+│   ├── search-results.png
+│   └── aqi-details.png
+│
 └── README.md
+```
 
-```markdown
-# ▶️ Run Project Locally
+---
 
-## 1️⃣ Start Backend (Spring Boot)
+## ▶️ Run Project Locally
 
+### 1️⃣ Start Backend (Spring Boot)
 ```bash
 cd backend-aqi
 mvn clean
@@ -121,10 +105,11 @@ mvn spring-boot:run
 
 **Backend will start at:** `http://localhost:8080`
 
+![Backend Running](./Screenshot/backend-running.png)
+
 ---
 
-## 2️⃣ Start Frontend (React)
-
+### 2️⃣ Start Frontend (React)
 ```bash
 cd frontend-aqi
 npm install
@@ -132,6 +117,8 @@ npm run dev
 ```
 
 **Frontend will start at:** `http://localhost:5173`
+
+![Frontend Running](./Screenshot/frontend-running.png)
 
 ---
 
@@ -146,22 +133,29 @@ http://localhost:8080/api/air-quality?city=Pune
 
 ---
 
-## 📊 Features
+## 📊 Application Screenshots
+
+### Dashboard View
+![Dashboard](./Screenshot/dashboard.png)
+
+### Search Results
+![Search Results](./Screenshot/search-results.png)
+
+### AQI Details
+![AQI Details](./Screenshot/aqi-details.png)
+
+---
+
+## 📝 Features
 
 - Search AQI by city name
 - Dashboard-style UI
 - Displays AQI value and pollutants
 - Backend caching for faster responses
 - Error handling for invalid cities
-```
 
-### Dashboard View
-![Dashboard](Screenshot/deatils.png)
+---
 
-### Search Results
-![Search Results](Screenshot/Screenshot 2026-01-01 190512.png)
+## 👨‍💻 Author
 
-### AQI Details
-![AQI Details](Screenshot/Screenshot 2026-01-01 190539.png)
-
-
+**Sanika Menkudale**
