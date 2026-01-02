@@ -1,12 +1,20 @@
-# Build stage
-FROM maven:3.9.6-eclipse-temurin-17 AS build
-WORKDIR /app
-COPY . .
-RUN mvn clean package -DskipTests
-
-# Run stage
+# Use official Java 17 image
 FROM eclipse-temurin:17-jdk
+
+# Set working directory
 WORKDIR /app
-COPY --from=build /app/target/*.jar app.jar
+
+# Copy Maven wrapper & pom
+COPY pom.xml .
+
+# Copy source code
+COPY src ./src
+
+# Build the application
+RUN ./mvnw package -DskipTests || mvn package -DskipTests
+
+# Expose port (Render provides PORT dynamically)
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "app.jar"]
+
+# Run the Spring Boot app
+CMD ["java", "-jar", "target/aqi-backend-0.0.1-SNAPSHOT.jar"]
