@@ -1,5 +1,6 @@
 # 🌍 AQI Search Engine (Java + React)
 
+Checkout live Project here: https://aqindex.netlify.app/
 A full-stack **Air Quality Index (AQI) Search Engine** that allows users to search air quality by city name and view detailed air pollution data using an interactive dashboard.
 
 This project is built as part of a coding assignment and follows proper **REST API design**, **caching**, and a **modern frontend UI**.
